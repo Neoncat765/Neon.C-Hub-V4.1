@@ -120,7 +120,14 @@ Discord:https://discord.com/invite/NNabpr4c
 })
 
 MiscTab:AddButton({
-	Name = "More coming soon...",
+	Name = "Auto Spam V2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))();
+  	end    
+})
+
+MiscTab:AddButton({
+	Name = "Main discord server https://discord.com/invite/C2gXhnZhXB",
 	Callback = function()
       		print("button pressed")
   	end    
