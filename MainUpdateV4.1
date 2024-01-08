@@ -112,13 +112,6 @@ end
 })
 
 MiscTab:AddButton({
-	Name = "Manual Spam Button",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TwilightLoader/TwilightsPublic/main/Twilights.lua"))()
-  	end    
-})
-
-MiscTab:AddButton({
 	Name = "Auto Spam V2",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/main/Game/AutoParryOnly"))();
@@ -126,7 +119,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Code4Zaaa/X7Project/m
 })
 
 MiscTab:AddButton({
-	Name = "Main discord server https://discord.com/invite/C2gXhnZhXB",
+	Name = "Main discord server https://discord.gg/NCmpDSTWAz",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+MiscTab:AddButton({
+	Name = "Manual spam button coming soon...",
 	Callback = function()
       		print("button pressed")
   	end    
