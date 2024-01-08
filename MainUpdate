@@ -115,7 +115,6 @@ MiscTab:AddButton({
 	Name = "Manual Spam Button",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TwilightLoader/TwilightsPublic/main/Twilights.lua"))()
-Discord:https://discord.com/invite/NNabpr4c
   	end    
 })
 
