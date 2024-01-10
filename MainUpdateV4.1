@@ -16,7 +16,7 @@ function MakeScriptHub()
         local Window = OrionLib:MakeWindow({Name = "Neon.C Hub V4.1", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Neon.C Hub"})
 
 local MiscTab = Window:MakeTab({
-	Name = "Main",
+	Name = "🎯 Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -238,14 +238,52 @@ end)
 })
 
 MiscTab:AddButton({
-	Name = "Main discord server https://discord.gg/NCmpDSTWAz",
+	Name = "Manual spam button coming soon...",
 	Callback = function()
       		print("button pressed")
   	end    
 })
 
-MiscTab:AddButton({
-	Name = "Manual spam button coming soon...",
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CreditsSection = CreditsTab:AddSection({
+	Name = "Credits"
+})
+
+CreditsTab:AddButton({
+	Name = "Script made by Neoncat",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "Script ONLY supported for Blade Ball",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "Script idea by Yieviro92creepy",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "Supported for any device and executor",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "Main discord server https://discord.gg/NCmpDSTWAz",
 	Callback = function()
       		print("button pressed")
   	end    
